@@ -1,0 +1,51 @@
+  .popup-container {
+          animation: none;
+        }
+        
+        .popup-content {
+          scrollbar-width: thin;
+          scrollbar-color: #cbd5e1 #f1f5f9;
+        }
+        
+        .popup-content::-webkit-scrollbar {
+          width: 6px;
+        }
+        
+        .popup-content::-webkit-scrollbar-track {
+          background: #f1f5f9;
+          border-radius: 3px;
+        }
+        
+        .popup-content::-webkit-scrollbar-thumb {
+          background: #cbd5e1;
+          border-radius: 3px;
+        }
+        
+        .popup-content::-webkit-scrollbar-thumb:hover {
+          background: #94a3b8;
+        }
+        
+        .arrow {
+          pointer-events: none;
+        }
+        
+        /* Arrow styles for better visibility */
+        .arrow-bottom {
+          border-bottom-color: #000;
+          filter: drop-shadow(0 -2px 4px rgba(0,0,0,0.15));
+        }
+        
+        .arrow-top {
+          border-top-color: white;
+          filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
+        }
+        
+        .arrow-right {
+          border-right-color: white;
+          filter: drop-shadow(-2px 0 4px rgba(0,0,0,0.15));
+        }
+        
+        .arrow-left {
+          border-left-color: white;
+          filter: drop-shadow(2px 0 4px rgba(0,0,0,0.15));
+        }

@@ -1,0 +1,26 @@
+/* IoTCover.css */
+
+.iot-cover {
+  background: radial-gradient(ellipse at center, #0f2027, #203a43, #2c5364);
+  position: relative;
+}
+
+/* Pattern: animated grid dots or IoT pulses */
+.animated-pattern {
+  background: radial-gradient(#00ffd5 1px, transparent 1px);
+  background-size: 40px 40px;
+  animation: movePattern 20s linear infinite;
+  opacity: 0.05;
+}
+
+@keyframes movePattern {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100px 100px;
+  }
+}
+.form-select{
+  border: 1px solid rgba(0,0,0,.2) solid 1px;
+}

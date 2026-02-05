@@ -1,0 +1,404 @@
+/* Modern Tabs Component Styling */
+
+/* Base container styling */
+.tabs-container {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  position: relative;
+  width: 100%;
+}
+
+/* Tabs navigation container */
+.tabs-nav-container {
+  position: relative;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+  border-radius: 12px 12px 0 0;
+  border: 1px solid #e2e8f0;
+  border-bottom: none;
+  overflow: hidden;
+}
+
+/* Default variant styling */
+.tabs-nav-container.variant-default {
+  background: #ffffff;
+  border-bottom: 2px solid #e2e8f0;
+  border-radius: 0;
+}
+
+.tabs-nav-container.variant-pills {
+  background: #f8fafc;
+  border: none;
+  padding: 8px;
+  border-radius: 16px;
+}
+
+.tabs-nav-container.variant-underline {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Scrollable container */
+.tabs-scroll-container {
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+.tabs-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tabs list */
+.tabs-list {
+  display: flex;
+  align-items: center;
+  min-width: max-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+.variant-pills .tabs-list {
+  gap: 4px;
+}
+
+/* Individual tab styling */
+.tab-item {
+  flex-shrink: 0;
+}
+
+.tab-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: nowrap;
+  position: relative;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  color: #64748b;
+  text-decoration: none;
+  border-radius: 0;
+}
+
+/* Size variants */
+.tab-button.size-sm {
+line-height: 12px;
+  font-size: 13px;
+}
+
+.tab-button.size-md {
+  padding: 12px 20px;
+  font-size: 14px;
+}
+
+.tab-button.size-lg {
+  padding: 16px 24px;
+  font-size: 16px;
+}
+
+/* Default variant tab styling */
+.variant-default .tab-button {
+  border-bottom: 3px solid transparent;
+  /* padding-bottom: 15px; */
+}
+
+
+.variant-default .tab-button.active,
+.variant-default .tab-button:hover {
+  color: #3b82f6;
+  background: linear-gradient(to bottom, rgba(59, 130, 246, 0.05), rgba(59, 130, 246, 0.1));
+  border-bottom-color: #3b82f6;
+  font-weight: 600;
+}
+
+/* Pills variant tab styling */
+.variant-pills .tab-button {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(226, 232, 240, 0.5);
+}
+
+.variant-pills .tab-button:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: #475569;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.variant-pills .tab-button.active {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border-color: #3b82f6;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+  transform: translateY(-1px);
+}
+
+/* Underline variant tab styling */
+.variant-underline .tab-button {
+  border-bottom: 2px solid transparent;
+  padding-bottom: 12px;
+}
+
+.variant-underline .tab-button:hover {
+  color: #475569;
+  border-bottom-color: #cbd5e1;
+}
+
+.variant-underline .tab-button.active {
+  color: #3b82f6;
+  border-bottom-color: #3b82f6;
+  font-weight: 600;
+}
+
+/* Tab icon styling */
+.tab-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.tab-button:hover .tab-icon {
+  transform: scale(1.1);
+}
+
+.tab-button.active .tab-icon {
+  transform: scale(1.05);
+}
+
+/* Scroll buttons */
+.scroll-button {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.8) 70%, transparent 100%);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(4px);
+}
+
+.scroll-button.left {
+  left: 0;
+  background: #fff
+}
+
+.scroll-button.right {
+  right: 0;
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0.95) 30%, rgba(255, 255, 255, 0.8) 70%, transparent 100%);
+}
+
+.scroll-button:hover {
+  background-opacity: 1;
+}
+
+.scroll-button-icon {
+  width: 20px;
+  height: 20px;
+  padding: 4px;
+  background: white;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-button:hover .scroll-button-icon {
+  transform: scale(1.05);
+}
+
+.scroll-button-icon svg {
+  width: 14px;
+  height: 14px;
+  color: #64748b;
+}
+
+/* Tab content panel */
+.tab-content-panel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-top: none;
+  border-radius: 0 0 12px 12px;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.variant-underline .tab-content-panel,
+.variant-pills .tab-content-panel {
+  border-top: 1px solid #e2e8f0;
+  border-radius: 12px;
+  margin-top: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Content animation */
+.tab-content {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Empty state */
+.tab-empty-state {
+  text-align: center;
+  padding: 48px 24px;
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.tab-empty-state::before {
+  content: "📄";
+  display: block;
+  font-size: 32px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .tab-button {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+  
+  .tab-button.size-lg {
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+  
+  .tab-content-panel {
+    padding: 16px;
+  }
+  
+  .scroll-button {
+    padding: 0 12px;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .tabs-nav-container {
+    background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+    border-color: transparent;
+  }
+  
+  .variant-default .tabs-nav-container {
+    background: #1e293b;
+    border-bottom-color: #475569;
+  }
+  
+  .variant-pills .tabs-nav-container {
+    background: #0f172a;
+  }
+  
+  .tab-button {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .variant-pills .tab-button {
+    background: rgba(30, 41, 59, 0.7);
+    border-color: rgba(71, 85, 105, 0.5);
+  }
+  
+  .variant-pills .tab-button:hover {
+    background: rgba(30, 41, 59, 0.9);
+    color: #f1f5f9;
+  }
+  
+  .tab-content-panel {
+    background: #fff;
+    border-color: #fff;
+  }
+  
+  .scroll-button {
+    background: linear-gradient(90deg, rgba(30, 41, 59, 0.95) 0%, rgba(30, 41, 59, 0.8) 70%, transparent 100%);
+  }
+  
+  .scroll-button.right {
+    background:#fff
+  }
+  
+  .scroll-button-icon {
+    background: #334155;
+  }
+  
+  .scroll-button-icon svg {
+    color: #cbd5e1;
+  }
+  
+  .tab-empty-state {
+    color: #64748b;
+  }
+}
+
+/* Focus and accessibility improvements */
+.tab-button:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+.scroll-button:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .tab-button {
+    border: 1px solid transparent;
+  }
+  
+  .tab-button:hover,
+  .tab-button.active {
+    border-color: currentColor;
+  }
+  
+  .variant-pills .tab-button {
+    border: 2px solid #e2e8f0;
+  }
+  
+  .variant-pills .tab-button.active {
+    border-color: #3b82f6;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .tab-button,
+  .tab-icon,
+  .scroll-button-icon,
+  .tab-content {
+    transition: none;
+    animation: none;
+  }
+  
+  .tab-content {
+    opacity: 1;
+    transform: none;
+  }
+}
