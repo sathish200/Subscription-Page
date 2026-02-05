@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/sathish200/Subscription-Page/static/css/main.2bce874b.css",
-    "main.js": "/sathish200/Subscription-Page/static/js/main.78819a39.js",
-    "static/media/logo.png": "/sathish200/Subscription-Page/static/media/logo.7232c72a28f78746f06e.png",
-    "static/media/smartdustbin.jpg": "/sathish200/Subscription-Page/static/media/smartdustbin.9f55d59b11137543d597.jpg",
-    "static/media/roboeye.jpg": "/sathish200/Subscription-Page/static/media/roboeye.216a75e64e86f4ffa386.jpg",
-    "static/media/oleddisplay.jpg": "/sathish200/Subscription-Page/static/media/oleddisplay.4f99ab445ecd1875c6e0.jpg",
-    "static/media/display.jpg": "/sathish200/Subscription-Page/static/media/display.1915ff0d0e48e15a46b3.jpg",
-    "static/media/Radar.jpg": "/sathish200/Subscription-Page/static/media/Radar.13abc1abb86ddf623cf0.jpg",
-    "static/media/arduinoradar.jpg": "/sathish200/Subscription-Page/static/media/arduinoradar.6b19ade377390c585341.jpg",
-    "static/media/icomoon.svg?dg0tl1": "/sathish200/Subscription-Page/static/media/icomoon.3f800c0aa00fd279e0e1.svg",
-    "static/media/icomoon.eot?dg0tl1": "/sathish200/Subscription-Page/static/media/icomoon.e731ed0556aba51058d9.eot",
-    "static/media/icomoon.woff?dg0tl1": "/sathish200/Subscription-Page/static/media/icomoon.5e73b0405f7b64ce6800.woff",
-    "static/media/icomoon.ttf?dg0tl1": "/sathish200/Subscription-Page/static/media/icomoon.fb81d63fe335682672be.ttf",
-    "index.html": "/sathish200/Subscription-Page/index.html",
-    "main.2bce874b.css.map": "/sathish200/Subscription-Page/static/css/main.2bce874b.css.map",
-    "main.78819a39.js.map": "/sathish200/Subscription-Page/static/js/main.78819a39.js.map"
+    "main.css": "/Subscription-Page/static/css/main.93168c77.css",
+    "main.js": "/Subscription-Page/static/js/main.edccfaa4.js",
+    "static/media/logo.png": "/Subscription-Page/static/media/logo.7232c72a28f78746f06e.png",
+    "static/media/smartdustbin.jpg": "/Subscription-Page/static/media/smartdustbin.9f55d59b11137543d597.jpg",
+    "static/media/roboeye.jpg": "/Subscription-Page/static/media/roboeye.216a75e64e86f4ffa386.jpg",
+    "static/media/oleddisplay.jpg": "/Subscription-Page/static/media/oleddisplay.4f99ab445ecd1875c6e0.jpg",
+    "static/media/display.jpg": "/Subscription-Page/static/media/display.1915ff0d0e48e15a46b3.jpg",
+    "static/media/Radar.jpg": "/Subscription-Page/static/media/Radar.13abc1abb86ddf623cf0.jpg",
+    "static/media/arduinoradar.jpg": "/Subscription-Page/static/media/arduinoradar.6b19ade377390c585341.jpg",
+    "static/media/icomoon.svg?dg0tl1": "/Subscription-Page/static/media/icomoon.3f800c0aa00fd279e0e1.svg",
+    "static/media/icomoon.eot?dg0tl1": "/Subscription-Page/static/media/icomoon.e731ed0556aba51058d9.eot",
+    "static/media/icomoon.woff?dg0tl1": "/Subscription-Page/static/media/icomoon.5e73b0405f7b64ce6800.woff",
+    "static/media/icomoon.ttf?dg0tl1": "/Subscription-Page/static/media/icomoon.fb81d63fe335682672be.ttf",
+    "index.html": "/Subscription-Page/index.html",
+    "main.93168c77.css.map": "/Subscription-Page/static/css/main.93168c77.css.map",
+    "main.edccfaa4.js.map": "/Subscription-Page/static/js/main.edccfaa4.js.map"
   },
   "entrypoints": [
-    "static/css/main.2bce874b.css",
-    "static/js/main.78819a39.js"
+    "static/css/main.93168c77.css",
+    "static/js/main.edccfaa4.js"
   ]
 }
