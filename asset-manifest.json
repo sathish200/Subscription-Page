@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sathish200/Subscription-Page/static/css/main.2bce874b.css",
-    "main.js": "/sathish200/Subscription-Page/static/js/main.ea1c4cd3.js",
+    "main.js": "/sathish200/Subscription-Page/static/js/main.78819a39.js",
     "static/media/logo.png": "/sathish200/Subscription-Page/static/media/logo.7232c72a28f78746f06e.png",
     "static/media/smartdustbin.jpg": "/sathish200/Subscription-Page/static/media/smartdustbin.9f55d59b11137543d597.jpg",
     "static/media/roboeye.jpg": "/sathish200/Subscription-Page/static/media/roboeye.216a75e64e86f4ffa386.jpg",
@@ -15,10 +15,10 @@
     "static/media/icomoon.ttf?dg0tl1": "/sathish200/Subscription-Page/static/media/icomoon.fb81d63fe335682672be.ttf",
     "index.html": "/sathish200/Subscription-Page/index.html",
     "main.2bce874b.css.map": "/sathish200/Subscription-Page/static/css/main.2bce874b.css.map",
-    "main.ea1c4cd3.js.map": "/sathish200/Subscription-Page/static/js/main.ea1c4cd3.js.map"
+    "main.78819a39.js.map": "/sathish200/Subscription-Page/static/js/main.78819a39.js.map"
   },
   "entrypoints": [
     "static/css/main.2bce874b.css",
-    "static/js/main.ea1c4cd3.js"
+    "static/js/main.78819a39.js"
   ]
 }
