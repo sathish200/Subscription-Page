@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Subscription-Page/static/css/main.73cfa881.css",
-    "main.js": "/Subscription-Page/static/js/main.f659fcfa.js",
+    "main.js": "/Subscription-Page/static/js/main.1d722951.js",
     "static/media/logo.png": "/Subscription-Page/static/media/logo.7232c72a28f78746f06e.png",
     "static/media/smartdustbin.jpg": "/Subscription-Page/static/media/smartdustbin.9f55d59b11137543d597.jpg",
     "static/media/weatherStation.jpg": "/Subscription-Page/static/media/weatherStation.1db5d3d330769fd8375e.jpg",
@@ -16,10 +16,10 @@
     "static/media/icomoon.ttf?dg0tl1": "/Subscription-Page/static/media/icomoon.fb81d63fe335682672be.ttf",
     "index.html": "/Subscription-Page/index.html",
     "main.73cfa881.css.map": "/Subscription-Page/static/css/main.73cfa881.css.map",
-    "main.f659fcfa.js.map": "/Subscription-Page/static/js/main.f659fcfa.js.map"
+    "main.1d722951.js.map": "/Subscription-Page/static/js/main.1d722951.js.map"
   },
   "entrypoints": [
     "static/css/main.73cfa881.css",
-    "static/js/main.f659fcfa.js"
+    "static/js/main.1d722951.js"
   ]
 }
