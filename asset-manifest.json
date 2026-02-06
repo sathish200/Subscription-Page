@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Subscription-Page/static/css/main.93168c77.css",
-    "main.js": "/Subscription-Page/static/js/main.a532ab58.js",
+    "main.css": "/Subscription-Page/static/css/main.73cfa881.css",
+    "main.js": "/Subscription-Page/static/js/main.f659fcfa.js",
     "static/media/logo.png": "/Subscription-Page/static/media/logo.7232c72a28f78746f06e.png",
     "static/media/smartdustbin.jpg": "/Subscription-Page/static/media/smartdustbin.9f55d59b11137543d597.jpg",
+    "static/media/weatherStation.jpg": "/Subscription-Page/static/media/weatherStation.1db5d3d330769fd8375e.jpg",
     "static/media/roboeye.jpg": "/Subscription-Page/static/media/roboeye.216a75e64e86f4ffa386.jpg",
     "static/media/oleddisplay.jpg": "/Subscription-Page/static/media/oleddisplay.4f99ab445ecd1875c6e0.jpg",
     "static/media/display.jpg": "/Subscription-Page/static/media/display.1915ff0d0e48e15a46b3.jpg",
@@ -14,11 +15,11 @@
     "static/media/icomoon.woff?dg0tl1": "/Subscription-Page/static/media/icomoon.5e73b0405f7b64ce6800.woff",
     "static/media/icomoon.ttf?dg0tl1": "/Subscription-Page/static/media/icomoon.fb81d63fe335682672be.ttf",
     "index.html": "/Subscription-Page/index.html",
-    "main.93168c77.css.map": "/Subscription-Page/static/css/main.93168c77.css.map",
-    "main.a532ab58.js.map": "/Subscription-Page/static/js/main.a532ab58.js.map"
+    "main.73cfa881.css.map": "/Subscription-Page/static/css/main.73cfa881.css.map",
+    "main.f659fcfa.js.map": "/Subscription-Page/static/js/main.f659fcfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.93168c77.css",
-    "static/js/main.a532ab58.js"
+    "static/css/main.73cfa881.css",
+    "static/js/main.f659fcfa.js"
   ]
 }
